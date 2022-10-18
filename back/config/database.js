@@ -18,7 +18,7 @@ const connectDatabase = async() => {
             useNewUrlParser: true,
             useUnifiedTopology: true,
         });
-        console.log(`Base de datos mongo conectada con el servidor: ${con.connection.host}`);
+        console.log(`Base de datos mongo conectada con el servidor localhost: ${con.connection.host}`);
     } catch (error) {
         console.log({
             mensajedeerror : error
