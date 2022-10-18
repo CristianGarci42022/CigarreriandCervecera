@@ -21,8 +21,9 @@ const connectDatabase = async() => {
         console.log(`Base de datos mongo conectada con el servidor localhost: ${con.connection.host}`);
     } catch (error) {
         console.log({
-            mensajedeerror : error
+            msj : error
         });
+        console.log(`No se logro la conexion con la base de datos \nrevise el siguiente error: ${error} `);
     }
 }
 module.exports=connectDatabase;
