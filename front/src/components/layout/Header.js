@@ -1,6 +1,8 @@
 import React, { Fragment } from 'react'
+import "../../App.css"
 
 const Header = () => {
+    
     return (
         <Fragment>
             <nav className='navbar row'>
@@ -15,8 +17,8 @@ const Header = () => {
 						<input
 							type="text"
 							id="search_field"
-							className="form-control"
-							placeholder="Que desea buscar..."
+							className="form-control text-center"
+							placeholder="¿Que estás buscando?"
 						/>
 						<div className="input-group-append">
 							<button id="search_btn" className="btn">

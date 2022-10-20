@@ -1,8 +1,12 @@
-import React, { Fragment } from 'react'
+import React, { Fragment, useEffect } from 'react'
+import MetaData from './layout/MetaData'
+// import {useDispatch} from 'react-redux'
+// import { getProducts } from '../actions/productActions'
 
 export const Home = () => {
     return (
         <Fragment>
+        <MetaData title="Lo mejor para el fin de semana"></MetaData>
             <h1 id="encabezado_productos">Ultimos Productos</h1>
             <section id="productos" className='container mt-5'>
                 <div className='row'>
@@ -15,7 +19,7 @@ export const Home = () => {
                             {/* Titulo */}
                             <div className='card-body d-flex flex-column'>
 
-                                <h5 className="card-title"><a href='http://localhost:3000'>Detodito Familiar</a></h5>
+                                <h5 className="card-title"><a href=' http://192.168.1.6:3000/'>Detodito Familiar</a></h5>
                                 {/* Valoracion de estrellas */}
                                 <div className='rating mt-auto'>
                                     <div className='rating-outer'>
@@ -27,7 +31,7 @@ export const Home = () => {
                                 <div className="card-footer d-flex justify-content-between">
 
                                     <p className='text-danger font-weight-bold'>$12.600</p>
-                                    <a href='http://localhost:3000'
+                                    <a href=' http://192.168.1.6:3000/'
                                         id="cart"
                                         className='btn btn-warning px-3 ml-4'>
                                         <i className="fa fa-shopping-cart"></i>
@@ -35,7 +39,7 @@ export const Home = () => {
                                     {/* Boton de agregar al carrito */}
                                     {/*
                                     <p className='text-danger font-weight-bold'>$12.600</p>
-                                    <form href="http://localhost:3000">
+                                    <form href=" http://192.168.1.6:3000/">
                                         <button
                                             id="cart"
                                             type="button"
@@ -54,7 +58,7 @@ export const Home = () => {
                         <div className='card p-3 rounded'>
                             <img className='card-img-top mx-auto' src='./images/Galgerias/Doritos.jpg' alt="Doritos Familiar"></img>
                             <div className='card-body d-flex flex-column'>
-                                <h5 className="card-title"><a href='http://localhost:3000'>Doritos Familiar</a></h5>
+                                <h5 className="card-title"><a href=' http://192.168.1.6:3000/'>Doritos Familiar</a></h5>
                                 <div className='rating mt-auto'>
                                     <div className='rating-outer'>
                                         <div className='rating-inner'></div>
@@ -63,7 +67,7 @@ export const Home = () => {
                                 </div>
                                 <div className="card-footer d-flex justify-content-between">
                                     <p className='text-danger font-weight-bold'>$8.600</p>
-                                    <form action="http://localhost:3000/">
+                                    <form action=" http://192.168.1.6:3000//">
                                         <button
                                             id="cart"
                                             type="button"
@@ -81,7 +85,7 @@ export const Home = () => {
                         <div className='card p-3 rounded'>
                             <img className='card-img-top mx-auto' src='./images/Galgerias/M&M.jpg' alt="M&M "></img>
                             <div className='card-body d-flex flex-column'>
-                                <h5 className="card-title"><a href='http://localhost:3000'>M&M Tradicional</a></h5>
+                                <h5 className="card-title"><a href=' http://192.168.1.6:3000/'>M&M Tradicional</a></h5>
                                 <div className='rating mt-auto'>
                                     <div className='rating-outer'>
                                         <div className='rating-inner'></div>
@@ -90,7 +94,7 @@ export const Home = () => {
                                 </div>
                                 <div className="card-footer d-flex justify-content-between">
                                     <p className='text-danger font-weight-bold'>$4.600</p>
-                                    <form action="http://localhost:3000/">
+                                    <form action=" http://192.168.1.6:3000//">
                                         <button
                                             id="cart"
                                             type="button"
@@ -108,7 +112,7 @@ export const Home = () => {
                         <div className='card p-3 rounded'>
                             <img className='card-img-top mx-auto' src='./images/Galgerias/TodoRico.jpg' alt="Todo Rico Familiar"></img>
                             <div className='card-body d-flex flex-column'>
-                                <h5 className="card-title"><a href='http://localhost:3000'>Todo Rico Familiar</a></h5>
+                                <h5 className="card-title"><a href=' http://192.168.1.6:3000/'>Todo Rico Familiar</a></h5>
                                 <div className='rating mt-auto'>
                                     <div className='rating-outer'>
                                         <div className='rating-inner'></div>
@@ -117,7 +121,7 @@ export const Home = () => {
                                 </div>
                                 <div className="card-footer d-flex justify-content-between">
                                     <p className='text-danger font-weight-bold'>$18.600</p>
-                                    <form action="http://localhost:3000/">
+                                    <form action=" http://192.168.1.6:3000//">
                                         <button
                                             id="cart"
                                             type="button"
