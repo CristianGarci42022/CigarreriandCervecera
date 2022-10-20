@@ -32,7 +32,7 @@ nav {
 }
 
 #search_btn {
-  background-color: #ffc107;
+  background-color: #FFCB68;
 }
 /*Cosas que se quiere mostrar al usuario (x)Columnas (y)Filas*/
 .input-group {
@@ -58,7 +58,7 @@ nav {
 }
 
 #cart_count {
-  background-color: #ffc107;
+  background-color: #FFCB68;
   padding: 0.2rem 0.5rem;
   border-radius: 0.2rem;
   color: black;
@@ -341,8 +341,8 @@ footer {
 
 .btn-warning {
     color: #212529;
-    background-color: #28a745;
-    border-color: #28a745;
+    background-color: #94dd3b;
+    border-color: #94dd3b;
 }
 .btn.focus,
 .btn:focus {

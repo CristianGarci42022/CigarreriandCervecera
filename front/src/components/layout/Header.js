@@ -8,7 +8,7 @@ const Header = () => {
             <nav className='navbar row'>
                 <div className='col-12 col-md-3'>
                     <div className='navbar-brand'>
-                        <img src='./images/Logo-Icono/LogoCigarreriandCerveceria.png' alt='Cigarrería y Cerveceía'></img>
+                        <img src='./images/Logo-Icono/LogoCigarreriandCerveceria3.png' alt='Cigarrería y Cerveceía'></img>
                     </div>
                 </div>
 
@@ -32,7 +32,7 @@ const Header = () => {
                     <img  src="./images/Logo-Icono/carro3.png" aria-hidden="false"></img>
                 
                     &nbsp; &nbsp; &nbsp;&nbsp;
-                    <button className="btn btn-success px-4 text-white login-header-btn float-right">Iniciar de sesión</button>
+                    <button className="btn btn-warning px-4 text-white login-header-btn float-right">Iniciar de sesión</button>
                 </div>
             </nav>
 
